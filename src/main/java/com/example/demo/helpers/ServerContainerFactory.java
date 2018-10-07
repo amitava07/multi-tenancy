@@ -27,7 +27,7 @@ public class ServerContainerFactory extends TomcatEmbeddedServletContainerFactor
         resource.setProperty("factory", "org.apache.tomcat.jdbc.pool.DataSourceFactory");
         resource.setProperty("url", "jdbc:mysql://localhost:3306/employee_ind");
         resource.setProperty("username", "root");
-        resource.setProperty("password", "Amarta_1981");
+        resource.setProperty("password", "*********");
         context.getNamingResources().addResource(resource);
 
         resource = new ContextResource();
@@ -37,7 +37,7 @@ public class ServerContainerFactory extends TomcatEmbeddedServletContainerFactor
         //resource.setProperty("driverClassName", "your.db.Driver");
         resource.setProperty("url", "jdbc:mysql://localhost:3306/employee_us");
         resource.setProperty("username", "root");
-        resource.setProperty("password", "Amarta_1981");
+        resource.setProperty("password", "*******");
         context.getNamingResources().addResource(resource);
     }
 
